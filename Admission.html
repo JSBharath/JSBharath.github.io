@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ad.css">
+</head>
+<body>
+    <p></p>
+        <h1>Hi,Welcome to our college</h1>
+        <h2>Enter below details</h2>
+    </p>
+    <form id="forms">
+        <label for="fname">Enter First Name:</label>
+        <input class="change" type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+        <label for="lname">Enter Last Name:</label>
+        <input class="change" type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+        <label for="father">Enter Father Name:</label>
+        <input class="change" type="text" id="father" name="father" placeholder="Enter your father name" required>
+        <label for="e-mail">Enter Your E-mail Id:</label>
+        <input class="change" type="email" id="e-mail" name="e-mail" placeholder="Enter yourE-Mail Id" required>
+        <label for="mno">Enter Mobile Number:</label>
+        <input class="change" type="tel" id="mno" name="mno" placeholder="Enter Mobile Number" required>
+        <label for="country">Select your Country</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        <label for="address">Enter Your address:</label>
+        <input class="change" type="text" id="address" name="address" placeholder="Enter your address" required>
+        <button id='mybutton' type="submit">Submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

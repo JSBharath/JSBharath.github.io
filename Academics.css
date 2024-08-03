@@ -1,0 +1,36 @@
+li{
+    font-family: 'Times New Roman';
+    color:navy;
+}
+
+#depts{
+  margin-right: 10px;
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+body
+{
+  background-image: url('acade.jpg');
+  width:10;
+  height:10;
+  background-position:center;
+  background-size: cover;
+}
+.item{
+  height:80px;
+  width:140px;
+  background-color: beige;
+  border:2px solid navy;
+  text-align: center;
+  align-content: center;
+}
+.disp{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  align-content: center;
+}
+.hidden{
+  display: none;
+}

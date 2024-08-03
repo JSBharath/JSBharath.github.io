@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Academics.css">
+</head>
+<body>
+    <div>
+        <div id="disp">
+            <h2>These are the Departments available</h2>
+            <ul id = "depts">
+                <li>Arts</li>
+                <li>Engineering</li>
+                <li>Laws</li>
+            </ul>
+        </div>
+        <form action="" onsubmit="fetchDept(event)">
+        <label for="dept">Select Department:</label>
+        <select id="dept" name="dept">
+            <option value="Arts">Arts</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Laws">Laws</option>
+        </select>
+        <button>list</button>
+    </form>
+        <div id ="Arts" class="hidden">
+            <div class="item">Animation</div>
+            <div class="item">English Literature</div>
+            <div class="item">Graphic Design</div>
+            <div class="item">Journalism</div>
+        </div>
+        <div id ="Engineering" class="hidden">
+            <div class="item">CSE</div>
+            <div class="item">ECE</div>
+            <div class="item">EEE</div>
+            <div class="item">MECHANICAL</div>
+            <div class="item">CIVIL</div>
+        </div>
+        <div id ="Laws" class="hidden">
+            <div class="item">Criminology</div>
+            <div class="item">LLB</div>
+            <div class="item">LLM</div>
+            <div class="item">Journalism</div>
+        </div>
+    </div>
+</body>
+<script src="index.js"> </script>
+</html>

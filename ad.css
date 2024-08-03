@@ -1,0 +1,27 @@
+body
+{
+  background-image: url('clg.webp');
+  width:10;
+  height:10;
+  background-position:center;
+  background-size:cover;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:10px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#fname,#lname,#father,#e-mail,#mno,#address{
+    width: 100%;
+    height:20px;
+    background-color: ghostwhite;
+}
