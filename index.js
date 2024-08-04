@@ -1,7 +1,6 @@
  var ele=document.getElementById("forms");
     ele.addEventListener('submit',alertmsg);
 
-
     var hidden = 'hidden';
 function alertmsg(){
     alert("Form Submitted!");
@@ -26,4 +25,12 @@ function setDefault(){
     if(!(e1.classList.contains('hidden'))) e1.classList.add('hidden');
     if(!(e2.classList.contains('hidden'))) e2.classList.add('hidden');
     if(!(e3.classList.contains('hidden'))) e3.classList.add('hidden');
+}
+function func(val){
+    if(val==1){
+        alert("Contact Number:"+'+91-9392598159');
+    }
+    else if(val==2){
+        alert("Contact E-mail ID:"+'jogiswara2002@gmail.com');
+    }
 }

@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div id="nav-sec"></div>
+    <!-- <header>
         <img src="qislogo.jfif" alt="Logo" class="logo">
         <h1>QIS COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
         <div class="header-text">
             <nav>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
                 <a href="Admission.html">Admission</a>
                 <a href="Academics.html">Academics</a>
-                <a href="#">Gallery</a>
+                <a href="Gallery.html">Gallery</a>
             </nav>
         </div>
-    </header>
+    </header> -->
     <div class="hero">
-    <!-- <div id="textcont">
+    <div id="textcont">
         <h1>ABOUT QISCET</h1>
-    </div> -->
+    </div>
     <p class="tx">
         The QIS College of Engineering and Technology was established in the year 1998, 
         and sponsored by Sri Nidamanuri Educational Society to promote technological education 
@@ -43,14 +44,43 @@
         making our programs the right weapons to conquer the career goals.
 
     </p>
-    <p>
-        This is the best college in the world.
+    <p class="tx">
+        The Engineering Programs offered at QIS College of Engineering 
+        are designed for career initiation and growth in the competitive market place. 
+        There is equal emphasis on theoretical concepts as well as practical insights, 
+        making our programs the right weapons to conquer the career goals.
+
     </p>
     </div>
+    <div id="images">
+    <div id="image1">
+        <img src="Kalyan-Chakravarthy.png">
+        <p><b>Dr. N.S.Kalyan Chakravarthy</b></p>
+        <p>M.Tech.,Ph.D</p>
+        <p><b>Secretary & Correspondent</b></p>
+    </div>
+    <div id="image2">
+        <img src="Nageswara-Rao.png">
+        <p><b>Sri N.Nageswara Rao</b></p>
+        <p>B.E., MIE., President</p>
+        <p><b>Retd Chief Engineer, Irrigation Dept</b></p>
+    </div>
+    <div id="image2">
+        <img src="cet_principal.png">
+        <p><b>Dr. Y.V.Hanumantha Rao</b></p>
+        <p>M.Tech, Ph.D</p>
+        <p><b>Principal</b></p>
+    </div>
+    </div>
     <div id ="footer">
-        <div>Contact: +91 9392598159</div>
+        <div id="det">
+        <div onclick="func(1)">Contact</div>
+        <div onclick="func(2)">E-mail</div>
+        </div>
         <div id ="copy--rights">&copy; All rights reserved to QIS COLLEGE OF ENGINEERING & TECHNOLOGY</div>
         <div id = "loc--link"> <a  href="loc.html">Location</a></div>
     </div>
+    <script src="index.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>
